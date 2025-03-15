@@ -1,0 +1,31 @@
+* {
+	font-family: "Sometype Mono";
+}
+
+@font-face {
+	src: url("SometypeMono.woff"); /* For some reason, Google Fonts doesn't offer the legacy WOFF fonts so i converted myself for compatibility reasons. */
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.item {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
